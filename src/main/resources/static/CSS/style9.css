@@ -1,0 +1,98 @@
+.dvv {
+    text-align: center;
+    margin-top: 2vw;
+}
+.ddv {
+    text-align: center;
+    margin-top: 1vw;
+}
+.dv {
+    text-align: center;
+
+}
+.lah {
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.la {
+    font-size: 1.5vw;
+}
+.laa {
+    font-size: 1.2vw;
+}
+.bgi{
+	 background-image:url("../images/logo.webp");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+.btl {
+    background-color: white;
+    border: none;
+    color: blue;
+    padding: .4vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    border-radius: .4vw;
+}
+.btl:hover {
+    text-decoration: underline;
+    color: black;
+}
+.login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    height: 34%;
+    border-color: green;
+    border: .3vw solid blue;
+    background-color: #AACCBB;
+}
+.tb {
+    font-size: 1.8vw;
+    width: 100%;
+}
+.tbb {
+    height: 3vw;
+    width: 100%;
+}
+.logintd {
+    font-size: 1.8vw;
+    padding: .7vw;
+}
+.btr {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: .2vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border-radius: .4vw;
+    height: 3vw;
+    cursor: pointer;
+}
+.btr1 {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: .5vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border-radius: .4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.dvt {
+    width: 60%;
+    border: 2px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.oc {
+    background-color: orange;
+}

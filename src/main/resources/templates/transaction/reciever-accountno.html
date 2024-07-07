@@ -1,0 +1,17 @@
+ <div th:insert="menu.html"></div>
+<html xmlns:th="http://www.thymeleaf.org">
+ <body onload="makeActive('transfer')">
+ <form action="transfer"> 
+  <table class='ta'>
+    <tr>
+     <td class='td'>Enter account number:</td>
+     <td class='td'><input type='number' th:value="${accountno}" id="accountNo" name='accountno' class='tb' required></td>
+     <td class='td'><button class='bt' onclick="return checkSelfAccountNo()">Submit</button></td>
+    </tr>
+   </table>
+  </form> 
+  <div class='dvv'>
+   <label class='lah' id="error" style='color:red' th:text="${msg}"></label>
+  </div> 
+ </body>
+</html>

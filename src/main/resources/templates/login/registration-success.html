@@ -1,0 +1,23 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <link th:href='@{/CSS/styles.css}' rel='stylesheet'>
+  <link th:href='@{/CSS/bootstrap.min.css}' rel='stylesheet'>
+</head>
+<body class='bgi'>
+ <div class='dvv'>
+   <label class='lah' style='text-decoration:underline;font-size:2.5vw;color: black;'>User Registration</label>
+  </div>
+  <hr>
+ <div class='dv'>
+  <label class='lah' style="color: beige;">Congratulations!!! </label>
+  <label class='lah' style="color: black;" th:text='${name}'></label>
+  <br><br>
+  <label class='la' style='color:black'>You have been registered successfully</label>
+  <br><br>
+  <label class='la' style='color:black'>Your account number is <span th:text="${accountno}"></span></label>
+ </div>
+ <div class='dvv'>
+   <a href='login' class='btl'>Click to Login</a>
+ </div>
+</body>
+</html>

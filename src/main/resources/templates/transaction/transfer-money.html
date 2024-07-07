@@ -1,0 +1,22 @@
+<html xmlns:th="http://www.thymeleaf.org">
+ <body onload="makeActive('transfer')">
+ <div th:insert="menu.html"></div>
+ <div class='dvv'>
+   <label class='lah' style='color:green'>You are transferring to <span th:text="${name}"></span></label>
+  </div> 
+ <form action="update-transfer-amount"> 
+  <table class='ta' style='background-color: lightpink'>
+    <tr>
+	 <td class='td'>Enter account number:</td>
+     <td class='td'><input type='number' th:value="${accountno}" id="accountNo" name='accountno' class='tb' required></td>
+     <td class='td'>Enter amount:</td>
+     <td class='td'><input type='number' th:value="${amount}" id="amount" name='wamount' class='tb' required></td>
+     <td class='td'><button class='bt' onclick="return checkAmountLimit()">Submit</button></td>
+    </tr>
+   </table>
+  </form>
+  <div class='dvv'>
+   <label class='lah' id="error" style='color:red' th:text="${msg}"></label>
+  </div> 
+ </body>
+</html>

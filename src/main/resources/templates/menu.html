@@ -1,0 +1,32 @@
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+  <link th:href='@{/CSS/styles.css}' rel='stylesheet'>
+  <link th:href='@{/CSS/style1.css}' rel='stylesheet'>
+  <link th:href='@{/CSS/bootstrap.min.css}' rel='stylesheet'>
+  <script th:src='@{/JS/script.js}'></script>
+ </head>
+ <body>
+<img th:src="@{/images/canara.png}" style='height:28%;width:100%'>
+<hr style='border:2px solid red '>
+<table style="width:90%;margin:auto;font-family: Arial, Helvetica, sans-serif">
+  <tr>
+   <td align='center'><span style="color: black;" class='na'>USER NAME:</span><span style='font-size:1.7vw' th:text="${session.username}"></span></td>
+   <td align='center'><span style="color: black;" class='na'>ACCOUNT NUMBER:</span><span id="userAccountNo" style='font-size:1.7vw' th:text="${session.accountno}"></span></td>
+  </tr>
+</table>
+<hr style='border:2px solid red'>
+<hr style='border:2px solid blue'>
+<table class='tamn' border='1'>
+ <tr>
+  <td align='center'><a id='home' class='mna' href='/canara-bank/home'>Home</a></td>
+  <td align='center'><a id='balance' class='mna' href='/canara-bank/transaction/balance'>Show Balance</a></td>
+  <td align='center'><a id='deposit' class='mna' href='/canara-bank/transaction/deposit'>Deposit Money</a></td>
+  <td align='center'><a id='withdraw' class='mna' href='/canara-bank/transaction/withdraw'>Withdraw Money</a></td>
+  <td align='center'><a id='transfer' class='mna' href='/canara-bank/transaction/reciever'>Transfer Money</a></td>
+  <td align='center'><a class='mna' href='/canara-bank/user/change-password'>Change Password</a></td>
+  <td align='center'><a class='mna' href='/canara-bank/user/logout'>Logout</a></td>
+ </tr>
+</table>
+<hr style='border:2px solid blue'>
+</body>
+</html>

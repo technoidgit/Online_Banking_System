@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+  <link th:href='@{/CSS/styles.css}' rel='stylesheet'>
+ </head>
+ <body class='bgi'>
+  <div style='margin-top:auto;color:black ' align='center'>
+ 	<h1 style="margin-top: 20%;" th:text="${name+', Thank You for using Canara Bank'}"></h1>
+ 	<h1 >You have successfully logged out...</h1>
+  </div>
+  <div style='margin-top:30px;font-family:lucida bright' align='center'>
+     <a href='/canara-bank/home' style='font-size:20px;color:rgb(0, 0, 0)'>Click here for re-login</a>
+  </div>
+ </body> 
+</html>
